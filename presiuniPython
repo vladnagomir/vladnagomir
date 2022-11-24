@@ -1,0 +1,51 @@
+fisier=open('Presiuni.txt')
+presiune=fisier.readlines()
+pres=[]
+print('Subpunctul 1,2')
+print()
+for rand in presiune:
+  data=rand.split()
+  pres.append(data)
+  if '760' in data[0]:
+    print('Presiunea normala este:',data[0])
+  else:
+    print('In data ',data[0],' avem pres ',data[1])
+print()
+print('Subpunctul 3')
+k=0
+pres=[]
+for rand in presiune:
+  data=rand.split()
+  pres.append(data)
+
+  if '760' in data[0]:
+    print()
+  else:
+    k+=1
+    print('Presiunea este :',data[1])
+print()
+print('Subpunctul 4')
+print(k,' determinari au fost efectuate')
+print()
+print('Subpunctul 5')
+pres=[]
+for rand in presiune:
+  data=rand.split()
+  pres.append(data)
+  if '760' in data[0]:
+    print()
+  elif data[1]>'760':
+    print('Presiunea ',data[1],' este ,mai mare de 760')
+print()
+print('Subpunctul 6')
+pres=[]
+k=['1','0']
+for rand in presiune:
+  data=rand.split()
+  pres.append(data)
+  if '760' in data[0]:
+    print()
+  elif data[1]>k[1]:
+    k[1]=data[1]
+    k[0]=data[0]
+print('Presiunea maxima de ',k[1],' a fost inregistrata in data ',k[0])
