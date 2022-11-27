@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @vladnagomir
-- 👀 I’m interested in Mechatronics, Space biology and IT. 
+- 👀 I’m interested in Mechatronics, Astrobiology and IT. 
 - 🌱 I’m currently learning Mechatronics. 
 - 💞️ I’m looking to collaborate on everything. 
 - 📫 How to reach me ... nagomir.vladislav@gmail.com
